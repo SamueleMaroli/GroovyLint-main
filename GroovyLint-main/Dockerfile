@@ -1,0 +1,1 @@
+FROM nvuillam/npm-groovy-lint:latest

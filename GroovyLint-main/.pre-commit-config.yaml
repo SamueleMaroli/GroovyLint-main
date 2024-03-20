@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: groovy-lint
+        name: Groovy Lint
+        entry: sh -c 'docker build .'
+        language: system
+        stages: [commit]
+
