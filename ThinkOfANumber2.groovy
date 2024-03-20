@@ -16,8 +16,6 @@ class ThinkOfANumber2 {
 
 
 
-
-
         // Ottiene l'input dell'utente
         Scanner scanner = new Scanner(System.in)
         int userGuess = scanner.nextInt()
